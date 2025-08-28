@@ -102,3 +102,74 @@ The sum of numbers from 1 to 50 is: 1275
    python task3_oddeven.py
    python task4_forloop.py
 
+
+📌 Task 5: Calculate Factorial Using a Function
+Problem Statement
+
+Write a Python program that:
+
+Defines a function named factorial that takes a number as an argument.
+
+Calculates its factorial using recursion.
+
+Returns the calculated factorial.
+
+Calls the function with a sample number and prints the output.
+
+Code Example
+def fact(n):
+    if n < 2:
+        return 1
+    else:
+        return n * fact(n-1)
+    
+n=int(input("enter a  number "))    
+result =  fact(n)
+print(f"factorial of {n} is ",result)
+
+
+Expected Output
+enter a number 5
+factorial of 5 is: 120
+
+📌 Task 2: Using the Math Module for Calculations
+Problem Statement
+
+Write a Python program that:
+
+Asks the user for a number as input.
+
+Uses the math module to calculate:
+
+The square root of the number
+
+The natural logarithm (log base e) of the number
+
+The sine of the number (in radians)
+
+Displays the calculated results.
+
+Code Example
+import math 
+n = int(input("enter a number"))
+print("square root :", math.sqrt(n))
+print("logarithm:", math.log(n))
+print("sine :", math.sin(n))
+
+example
+enter a number  25
+square root : 5.0
+logarithm: 3.2188758248682006
+sine : -0.13235175009777303
+🚀 How to Run
+
+Save the code in a .py file (e.g., task5.py or task6.py).
+
+Open a terminal and navigate to the file’s directory.
+
+Run the program with:
+
+python task5.py
+python task6.py
+
+
