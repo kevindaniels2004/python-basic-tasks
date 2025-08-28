@@ -132,7 +132,7 @@ Expected Output
 enter a number 5
 factorial of 5 is: 120
 
-📌 Task 2: Using the Math Module for Calculations
+📌 Task 6: Using the Math Module for Calculations
 Problem Statement
 
 Write a Python program that:
@@ -171,5 +171,6 @@ Run the program with:
 
 python task5.py
 python task6.py
+
 
 
